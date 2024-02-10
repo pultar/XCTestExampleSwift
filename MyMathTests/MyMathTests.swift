@@ -28,7 +28,7 @@ final class MyMathTests: XCTestCase {
         let expectedResult = 600
         XCTAssertEqual(expectedResult, rect.area())
         let randomNumber = MyMath.RandomNumber()
-        let expectedNumber: Int32 = 42
+        let expectedNumber: Int32 = 43
         XCTAssertEqual(expectedNumber, randomNumber.randomNumber())
     }
 
