@@ -14,5 +14,5 @@ FOUNDATION_EXPORT double MyMathVersionNumber;
 FOUNDATION_EXPORT const unsigned char MyMathVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MyMath/PublicHeader.h>
-
+#import <MyMath/RandomNumber.h>
 

@@ -27,6 +27,9 @@ final class MyMathTests: XCTestCase {
         let rect = MyRect(width: 20, height: 30)
         let expectedResult = 600
         XCTAssertEqual(expectedResult, rect.area())
+        let randomNumber = MyMath.RandomNumber()
+        let expectedNumber: Int32 = 42
+        XCTAssertEqual(expectedNumber, randomNumber.randomNumber())
     }
 
 }

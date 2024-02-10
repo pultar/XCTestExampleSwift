@@ -10,3 +10,6 @@ import MyMath
 
 let rect = MyRect(width: 20, height: 30)
 print(rect)
+
+let random = RandomNumber()
+print(random.randomNumber())

@@ -14,6 +14,10 @@
 		DC7F460F2B782CEC00BCA40A /* MyMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F460E2B782CEC00BCA40A /* MyMath.swift */; };
 		DC7F46112B782D7600BCA40A /* MyMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7F45F92B782CDC00BCA40A /* MyMath.framework */; };
 		DC7F46122B782D7600BCA40A /* MyMath.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC7F45F92B782CDC00BCA40A /* MyMath.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCFEF6D52B78398D0010D913 /* RandomNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCFEF6D32B78398D0010D913 /* RandomNumber.cpp */; };
+		DCFEF6D62B78398D0010D913 /* RandomNumber.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DCFEF6D42B78398D0010D913 /* RandomNumber.hpp */; };
+		DCFEF6D92B7839EC0010D913 /* RandomNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = DCFEF6D72B7839EC0010D913 /* RandomNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCFEF6DA2B7839EC0010D913 /* RandomNumber.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCFEF6D82B7839EC0010D913 /* RandomNumber.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,10 @@
 		DC7F46002B782CDC00BCA40A /* MyMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7F46052B782CDC00BCA40A /* MyMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMathTests.swift; sourceTree = "<group>"; };
 		DC7F460E2B782CEC00BCA40A /* MyMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMath.swift; sourceTree = "<group>"; };
+		DCFEF6D32B78398D0010D913 /* RandomNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RandomNumber.cpp; sourceTree = "<group>"; };
+		DCFEF6D42B78398D0010D913 /* RandomNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RandomNumber.hpp; sourceTree = "<group>"; };
+		DCFEF6D72B7839EC0010D913 /* RandomNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomNumber.h; sourceTree = "<group>"; };
+		DCFEF6D82B7839EC0010D913 /* RandomNumber.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RandomNumber.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,10 @@
 			children = (
 				DC7F45FB2B782CDC00BCA40A /* MyMath.h */,
 				DC7F460E2B782CEC00BCA40A /* MyMath.swift */,
+				DCFEF6D32B78398D0010D913 /* RandomNumber.cpp */,
+				DCFEF6D42B78398D0010D913 /* RandomNumber.hpp */,
+				DCFEF6D72B7839EC0010D913 /* RandomNumber.h */,
+				DCFEF6D82B7839EC0010D913 /* RandomNumber.mm */,
 			);
 			path = MyMath;
 			sourceTree = "<group>";
@@ -153,7 +165,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFEF6D62B78398D0010D913 /* RandomNumber.hpp in Headers */,
 				DC7F46072B782CDC00BCA40A /* MyMath.h in Headers */,
+				DCFEF6D92B7839EC0010D913 /* RandomNumber.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFEF6DA2B7839EC0010D913 /* RandomNumber.mm in Sources */,
 				DC7F460F2B782CEC00BCA40A /* MyMath.swift in Sources */,
+				DCFEF6D52B78398D0010D913 /* RandomNumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
